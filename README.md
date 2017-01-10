@@ -61,4 +61,6 @@ extension ViewController: YTSocketDelegate {
 }
 ```
 
+## Server
 
+Checkout [this](https://github.com/yasinturkdogan/JavaSocketSample) Java Sample for an endpoint
