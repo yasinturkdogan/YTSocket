@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D7832441E25022800E25C60 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1D7832431E25022800E25C60 /* LICENSE */; };
+		1DA106CC1E1EF3E2009DBD36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA106CB1E1EF3E2009DBD36 /* AppDelegate.swift */; };
+		1DA106CE1E1EF3E2009DBD36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA106CD1E1EF3E2009DBD36 /* ViewController.swift */; };
+		1DA106D11E1EF3E2009DBD36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA106CF1E1EF3E2009DBD36 /* Main.storyboard */; };
+		1DA106D31E1EF3E2009DBD36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA106D21E1EF3E2009DBD36 /* Assets.xcassets */; };
+		1DA106D61E1EF3E2009DBD36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA106D41E1EF3E2009DBD36 /* LaunchScreen.storyboard */; };
+		1DA106E81E1EF3FF009DBD36 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1DA106DE1E1EF3FF009DBD36 /* Info.plist */; };
+		1DA106E91E1EF3FF009DBD36 /* YTKeepAlive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA106DF1E1EF3FF009DBD36 /* YTKeepAlive.swift */; };
+		1DA106EA1E1EF3FF009DBD36 /* YTPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA106E01E1EF3FF009DBD36 /* YTPacket.swift */; };
+		1DA106EB1E1EF3FF009DBD36 /* YTResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA106E11E1EF3FF009DBD36 /* YTResponse.swift */; };
+		1DA106EC1E1EF3FF009DBD36 /* YTRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA106E21E1EF3FF009DBD36 /* YTRun.swift */; };
+		1DA106ED1E1EF3FF009DBD36 /* YTSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA106E41E1EF3FF009DBD36 /* YTSocket.swift */; };
+		1DA106EE1E1EF3FF009DBD36 /* YTSocketHandlerWithDemiliter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA106E51E1EF3FF009DBD36 /* YTSocketHandlerWithDemiliter.swift */; };
+		1DA106EF1E1EF3FF009DBD36 /* YTSocketHandlerWithSizeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA106E61E1EF3FF009DBD36 /* YTSocketHandlerWithSizeHeader.swift */; };
+		1DA106F01E1EF3FF009DBD36 /* YTTypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA106E71E1EF3FF009DBD36 /* YTTypeAlias.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D7832431E25022800E25C60 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1DA106C81E1EF3E2009DBD36 /* YTSocketExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTSocketExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA106CB1E1EF3E2009DBD36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DA106CD1E1EF3E2009DBD36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DA106D01E1EF3E2009DBD36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DA106D21E1EF3E2009DBD36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DA106D51E1EF3E2009DBD36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DA106D71E1EF3E2009DBD36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DA106DE1E1EF3FF009DBD36 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DA106DF1E1EF3FF009DBD36 /* YTKeepAlive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTKeepAlive.swift; sourceTree = "<group>"; };
+		1DA106E01E1EF3FF009DBD36 /* YTPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTPacket.swift; sourceTree = "<group>"; };
+		1DA106E11E1EF3FF009DBD36 /* YTResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTResponse.swift; sourceTree = "<group>"; };
+		1DA106E21E1EF3FF009DBD36 /* YTRun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTRun.swift; sourceTree = "<group>"; };
+		1DA106E31E1EF3FF009DBD36 /* YTSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTSocket.h; sourceTree = "<group>"; };
+		1DA106E41E1EF3FF009DBD36 /* YTSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTSocket.swift; sourceTree = "<group>"; };
+		1DA106E51E1EF3FF009DBD36 /* YTSocketHandlerWithDemiliter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTSocketHandlerWithDemiliter.swift; sourceTree = "<group>"; };
+		1DA106E61E1EF3FF009DBD36 /* YTSocketHandlerWithSizeHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTSocketHandlerWithSizeHeader.swift; sourceTree = "<group>"; };
+		1DA106E71E1EF3FF009DBD36 /* YTTypeAlias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTTypeAlias.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DA106C51E1EF3E2009DBD36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DA106BF1E1EF3E2009DBD36 = {
+			isa = PBXGroup;
+			children = (
+				1D7832431E25022800E25C60 /* LICENSE */,
+				1DA106DD1E1EF3FF009DBD36 /* YTSocket */,
+				1DA106CA1E1EF3E2009DBD36 /* YTSocketExample */,
+				1DA106C91E1EF3E2009DBD36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DA106C91E1EF3E2009DBD36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DA106C81E1EF3E2009DBD36 /* YTSocketExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DA106CA1E1EF3E2009DBD36 /* YTSocketExample */ = {
+			isa = PBXGroup;
+			children = (
+				1DA106CB1E1EF3E2009DBD36 /* AppDelegate.swift */,
+				1DA106CD1E1EF3E2009DBD36 /* ViewController.swift */,
+				1DA106CF1E1EF3E2009DBD36 /* Main.storyboard */,
+				1DA106D21E1EF3E2009DBD36 /* Assets.xcassets */,
+				1DA106D41E1EF3E2009DBD36 /* LaunchScreen.storyboard */,
+				1DA106D71E1EF3E2009DBD36 /* Info.plist */,
+			);
+			path = YTSocketExample;
+			sourceTree = "<group>";
+		};
+		1DA106DD1E1EF3FF009DBD36 /* YTSocket */ = {
+			isa = PBXGroup;
+			children = (
+				1DA106DE1E1EF3FF009DBD36 /* Info.plist */,
+				1DA106DF1E1EF3FF009DBD36 /* YTKeepAlive.swift */,
+				1DA106E01E1EF3FF009DBD36 /* YTPacket.swift */,
+				1DA106E11E1EF3FF009DBD36 /* YTResponse.swift */,
+				1DA106E21E1EF3FF009DBD36 /* YTRun.swift */,
+				1DA106E31E1EF3FF009DBD36 /* YTSocket.h */,
+				1DA106E41E1EF3FF009DBD36 /* YTSocket.swift */,
+				1DA106E51E1EF3FF009DBD36 /* YTSocketHandlerWithDemiliter.swift */,
+				1DA106E61E1EF3FF009DBD36 /* YTSocketHandlerWithSizeHeader.swift */,
+				1DA106E71E1EF3FF009DBD36 /* YTTypeAlias.swift */,
+			);
+			path = YTSocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DA106C71E1EF3E2009DBD36 /* YTSocketExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA106DA1E1EF3E2009DBD36 /* Build configuration list for PBXNativeTarget "YTSocketExample" */;
+			buildPhases = (
+				1DA106C41E1EF3E2009DBD36 /* Sources */,
+				1DA106C51E1EF3E2009DBD36 /* Frameworks */,
+				1DA106C61E1EF3E2009DBD36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTSocketExample;
+			productName = YTSocketExample;
+			productReference = 1DA106C81E1EF3E2009DBD36 /* YTSocketExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DA106C01E1EF3E2009DBD36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yasinturkdogan;
+				TargetAttributes = {
+					1DA106C71E1EF3E2009DBD36 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1DA106C31E1EF3E2009DBD36 /* Build configuration list for PBXProject "YTSocketExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DA106BF1E1EF3E2009DBD36;
+			productRefGroup = 1DA106C91E1EF3E2009DBD36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DA106C71E1EF3E2009DBD36 /* YTSocketExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DA106C61E1EF3E2009DBD36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA106E81E1EF3FF009DBD36 /* Info.plist in Resources */,
+				1DA106D61E1EF3E2009DBD36 /* LaunchScreen.storyboard in Resources */,
+				1DA106D31E1EF3E2009DBD36 /* Assets.xcassets in Resources */,
+				1DA106D11E1EF3E2009DBD36 /* Main.storyboard in Resources */,
+				1D7832441E25022800E25C60 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DA106C41E1EF3E2009DBD36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA106CE1E1EF3E2009DBD36 /* ViewController.swift in Sources */,
+				1DA106E91E1EF3FF009DBD36 /* YTKeepAlive.swift in Sources */,
+				1DA106EB1E1EF3FF009DBD36 /* YTResponse.swift in Sources */,
+				1DA106F01E1EF3FF009DBD36 /* YTTypeAlias.swift in Sources */,
+				1DA106ED1E1EF3FF009DBD36 /* YTSocket.swift in Sources */,
+				1DA106EE1E1EF3FF009DBD36 /* YTSocketHandlerWithDemiliter.swift in Sources */,
+				1DA106EA1E1EF3FF009DBD36 /* YTPacket.swift in Sources */,
+				1DA106EC1E1EF3FF009DBD36 /* YTRun.swift in Sources */,
+				1DA106EF1E1EF3FF009DBD36 /* YTSocketHandlerWithSizeHeader.swift in Sources */,
+				1DA106CC1E1EF3E2009DBD36 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DA106CF1E1EF3E2009DBD36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DA106D01E1EF3E2009DBD36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DA106D41E1EF3E2009DBD36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DA106D51E1EF3E2009DBD36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DA106D81E1EF3E2009DBD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DA106D91E1EF3E2009DBD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DA106DB1E1EF3E2009DBD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YTSocketExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turkdogan.YTSocketExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1DA106DC1E1EF3E2009DBD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YTSocketExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turkdogan.YTSocketExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DA106C31E1EF3E2009DBD36 /* Build configuration list for PBXProject "YTSocketExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA106D81E1EF3E2009DBD36 /* Debug */,
+				1DA106D91E1EF3E2009DBD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DA106DA1E1EF3E2009DBD36 /* Build configuration list for PBXNativeTarget "YTSocketExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA106DB1E1EF3E2009DBD36 /* Debug */,
+				1DA106DC1E1EF3E2009DBD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DA106C01E1EF3E2009DBD36 /* Project object */;
+}
